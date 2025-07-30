@@ -1,4 +1,4 @@
-= Model Context Protocol (MCP) Integrations for the Neo4j Graph Database
+= Model Context Protocol (MCP) Integrations for Neo4j
 // include::_graphacademy_llm.adoc[]
 :slug: model-context-protocol-mcp
 :author: Michael Hunger
@@ -235,8 +235,6 @@ Cypher Ingest
 image::https://dist.neo4j.com/wp-content/uploads/mcp-data-modeling-claude-data-discovery.png[width=400]
 image::https://dist.neo4j.com/wp-content/uploads/mcp-data-modeling-claude-data-model-1-viz.png[width=400]
 
-You can learn more about the Data Modeling MCP Server and how it can be integrated with the Cypher MCP Server in https://neo4j.com/blog/developer/neo4j-data-modeling-mcp-server/[this article^].
-
 === MCP-Neo4j-GDS
 
 The Neo4j Graph Data Science Server (https://github.com/neo4j-contrib/gds-agent[GDS-Agent]) provides GDS algorithms as tools.
@@ -310,6 +308,8 @@ The Neo4j Integration was added early in Dec 2024, and provides
 
 * https://googleapis.github.io/genai-toolbox/resources/sources/neo4j/[Neo4j Source^]
 * https://googleapis.github.io/genai-toolbox/resources/tools/neo4j-cypher/[Neo4j Cypher Tools^]
+* https://googleapis.github.io/genai-toolbox/resources/tools/neo4j/neo4j-execute-cypher/[Neo4j Execute Cypher^]
+* https://googleapis.github.io/genai-toolbox/resources/tools/neo4j/neo4j-schema/[Neo4j Schema^]
 
 image::https://dist.neo4j.com/wp-content/uploads/20250415081953/mcp-toolbox-tools.png[]
 image::https://dist.neo4j.com/wp-content/uploads/20250415082753/mcp-server-toolkit-inspector.png[]
